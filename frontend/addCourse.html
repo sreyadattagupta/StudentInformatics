@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Courses</title>
+    <link rel="stylesheet" href="/addCourses.css">
+</head>
+<body>
+    <div class="top">
+        <img class="image1" src="https://betamoodle.iiitvadodara.ac.in/pluginfile.php/1/core_admin/logo/0x200/1672126270/LOGO.jpg">
+        <h1>Indian Institute of Information Technology Vadodara</h1>
+    </div>
+    <form action="/admin/addCourses" method="POST">
+        <label for="code">Course Code:</label><br>
+        <input type="text" id="code" name="code" required><br><br>
+      
+        <label for="coursename">Course Name:</label><br>
+        <input type="text" id="coursename" name="coursename" required><br><br>
+      
+        <label for="dept">Department:</label><br>
+        <input type="text" id="dept" name="dept" required><br><br>
+      
+        <label for="sem">Semester:</label><br>
+        <input type="number" id="sem" name="sem" required><br><br>
+      
+        <div class="Mandt">
+            <label for="mandatory">Mandatory:</label><br>
+            <input type="radio" id="mandatory_yes" name="mandatory" value="true" required>
+            <label for="mandatory_yes">Yes</label><br>
+            <input type="radio" id="mandatory_no" name="mandatory" value="false" required>
+            <label for="mandatory_no">No</label><br><br>
+            
+        </div>
+        <button type="submit" id="submit">Submit</button>
+      </form>
+      
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="/courseRegister.css">
+	<title>Student Course Registration</title>
+</head>
+<body>
+	<nav>
+        <div class="top">
+            <img class="image1" src="https://betamoodle.iiitvadodara.ac.in/pluginfile.php/1/core_admin/logo/0x200/1672126270/LOGO.jpg">
+            <h1>Indian Institute of Information Technology Vadodara</h1>
+        </div>
+    </nav>
+	<h2>Register for Courses</h2>
+	<form class="F" method="POST" action="/student/registerCourse">
+		<div class="D">
+			<div class="M">
+				<h3 class="TO">Mandatory Courses</h3>
+				%mandatory%
+				<!-- <label class="OP" for="mandatory"><input type="checkbox" name="courses" value="DBMS" checked disabled> DBMS</label><br>
+				<label class="OP" for="mandatory"><input type="checkbox" name="courses" value="Operating System"  checked disabled> Operating System</label><br><br> -->
+			</div>
+			
+			<div class="O">
+				<h3 class="TO">Optional Courses (Select at least 2)</h3>
+				%nonmandatory%
+				<!-- <label class="OP" for="optional"><input type="checkbox" name="courses" value="Optional Course 1" > Optional Course 1</label><br>
+				<label class="OP" for="optional"><input type="checkbox" name="courses" value="Optional Course 2" > Optional Course 2</label><br>
+				<label class="OP" for="optional"><input type="checkbox" name="courses" value="Optional Course 3" > Optional Course 3</label><br>
+				<label class="OP" for="optional"><input type="checkbox" name="courses" value="Optional Course 4" > Optional Course 4</label><br><br> -->
+			</div>
+		</div>
+		<div class="I">
+			<input type="submit" value="Register">
+		</div>
+	</form>
+	
+</body>
+</html>

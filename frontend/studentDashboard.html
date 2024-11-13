@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/dashboard.css">
+    <title>Dashboard</title>
+</head>
+
+<body>
+    <nav>
+        <div class="top">
+            <img class="image1" src="https://betamoodle.iiitvadodara.ac.in/pluginfile.php/1/core_admin/logo/0x200/1672126270/LOGO.jpg">
+            <h1>Indian Institute of Information Technology Vadodara</h1>
+            <div class="Option">
+                <form action="/student/logout" method="GET"><button class="logout" type="submit">Logout</button></form>
+                <!-- <li><a href="">Logout</a></li> -->
+            </div>
+        </div>
+    </nav>
+    <div class="head"><h1>Welcome, %name%</h1></div>
+    
+    <div class="studentDetail">
+        <p class="U">User Details</p>
+        <div class="details">
+                <p class="A">Name : %name%</p>
+                <p class="A">Semester : %sem%</p>
+                <p class="A">CPI : %cpi%</p>
+        </div>
+    </div>
+
+    <div class="Stcount">
+        <p>Total number of Registered Courses are %course%</p>
+    </div>
+    <div class="Student">
+        <form action="/student/courses" method="GET"><button type="submit">View Courses</button></form>
+        <form action="/student/courseRegister" method="GET"><button type="submit">Register for Course</button></form>
+    </div>
+    
+</body>
+</html>

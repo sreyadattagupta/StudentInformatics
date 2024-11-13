@@ -1,0 +1,197 @@
+* {
+    font-size: 62.5%;
+    margin: 0%;
+    padding: 0%;
+    font-family:sans-serif;  
+    background: #8699b4; 
+    color:whitesmoke;
+}
+
+.top{
+    padding: 1rem;
+    display: flex;
+    margin: auto;
+    height: 10vh;
+    min-height: 2rem;
+    align-items: center;
+    width: 8rem ,;
+    background: #ffffff;
+}
+
+.image1{
+    width: 8rem;
+    margin-left: 2rem;
+    display: block;
+}
+
+.top h1{
+    margin-left: 2.5rem;
+    font-size: 3rem;
+    color: rgb(0 0 0 / 80%);
+    background: #ffffff;
+}
+
+.Option{
+    position: absolute;
+    right: 2rem;
+    background: none;
+}
+
+.Option form{
+    padding: 1rem;
+    list-style: none;
+    background: none;
+}
+
+.logout:hover{
+    background: #100b0b;
+    cursor: pointer;
+}
+
+.logout{
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+    background: none;
+}
+
+.Option button{
+    padding: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border-radius: 4rem;
+    background: #2f238f;
+    font-size: 2rem;
+}
+
+.head h1{
+    font-size: 5rem;
+    text-align: center;
+    padding: 3%;
+    background: #000000;
+    color: rgba(236, 229, 229, 0.8);
+}
+
+.Stcount{
+    margin: 0 auto;
+    width: 50%;
+    align-items: center;
+    margin-top: 5%;
+    background: none;
+    box-shadow: none;
+}
+
+.Ccount{
+    margin: 0 auto;
+    width: 50%;
+    align-items: center;
+    background: none;
+    box-shadow: none;
+}
+
+.Stcount p{
+    padding: 1.5%;
+    box-shadow: none;
+    text-align: center;
+    font-size: 2.5rem;
+    background: #195774;
+    border-radius: 5rem;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.Ccount p{
+    padding: 1.5%;
+    box-shadow: none;
+    text-align: center;
+    font-size: 2.5rem;
+    background: #195774;
+    border-radius: 5rem;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.Student , .reset{
+    padding: 2.5%;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Course {
+    padding: 2.5%;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Student button , .reset button{
+    font-size: 2rem;
+    color: rgb(0 0 0 / 80%);
+    border-radius: 4rem;
+    padding: 0.8rem;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+    background: rgb(218 183 201);
+}
+
+.Student button:hover , .reset button:hover{
+    background: #110a42;
+    color: rgb(241 237 237 / 80%);
+    cursor: pointer;
+}
+
+
+.Course button{
+    font-size: 2rem;
+    color: rgb(0 0 0 / 80%);
+    border-radius: 4rem;
+    padding: 0.8rem;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+    background: rgb(218 183 201);
+}
+
+.Course button:hover {
+    background: #110a42;
+    color: rgb(241 237 237 / 80%);
+    cursor: pointer;
+}
+
+.Student form , .reset form{
+    background: none;
+}
+
+.Course form{
+    background: none;
+}
+
+.details{
+    display: flex;
+    justify-content: space-around;
+    padding: 1%;
+}
+
+.A{
+    text-align: center;
+    padding: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    border-radius: 3rem;
+    background: rgb(194, 88, 88);
+}
+
+.studentDetail {
+    margin: 1%;
+    border: solid;
+    border-color: #3b0f0f;
+}
+
+.U{
+    margin-top: 1%;
+    margin-left: 2%;
+    color: #000000;
+    font-size: 3rem;
+}
+
+.details p{
+    font-size: 2rem;
+}
