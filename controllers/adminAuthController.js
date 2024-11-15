@@ -8,10 +8,16 @@ const mysql=require('mysql2');
 require('dotenv').config()
 // Authentication middleware
 
-const conn=mysql.createConnection(process.env.DATABASE_URL);
-conn.connect((err)=>{
-  console.log("Connected to MySQL PlanetScale Server");
-})
+
+
+  const conn = mysql.createConnection(process.env.DATABASE_URL);
+  conn.connect((err) => {
+    if (err) {
+      console.error('Database connection failed:', err.stack);
+    }
+    console.log('Connected to the database.');
+  });
+
 
 module.exports.signup = (req,res) => {
     const { name, email, password } = req.body;

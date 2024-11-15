@@ -39,8 +39,6 @@ app.listen(port, () => {
 );
 
 
-//Temporary part to be replaced by dashboard page
-
 app.get('/',auth,(req,res)=>{
     res.redirect('/admin/dashboard');
 })

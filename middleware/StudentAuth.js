@@ -15,7 +15,6 @@ const auth = (req, res, next) => {
     // Verify token
     const decodedToken = jwt.verify(token, config.get('jwtsecret'));
     req.user = decodedToken;
-    // console.log(req.user);
     next(); // Pass the control to the next middleware
   }
   catch(err){
