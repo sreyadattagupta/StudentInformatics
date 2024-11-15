@@ -1,6 +1,6 @@
 # Student Informatics Registration System
 
-This is a student registration system designed for an institute using MySQL, Node.js, Express, MongoDB, HTML, and CSS. The system allows an admin to manage instructors and students, and instructors to manage their courses and students. Students can register for courses and view their grades.
+This is a student registration system designed using MySQL, Node.js, Express, MongoDB, HTML, and CSS. The system allows an admin to manage instructors and students, and instructors to manage their courses and students. Students can register for courses and view their grades.
 
 ## Features
 
@@ -22,7 +22,4 @@ This is a student registration system designed for an institute using MySQL, Nod
 - CSS
 
 
-Deployed at https://student-informatics.onrender.com/
-Admin credentials=>
-  email: xyz@example.com
-  password: 12345678
+
